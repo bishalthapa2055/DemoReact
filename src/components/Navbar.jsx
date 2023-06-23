@@ -1,6 +1,8 @@
 import "./navbar.css";
 import Logo from "../images/Logo.png";
 import { Link, NavLink } from "react-router-dom";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import { links } from "../../data";
 import { useState } from "react";
 
@@ -21,6 +23,7 @@ const Navbar = () => {
                     to={path}
                     key={name}
                     className={({ isActive }) => (isActive ? "active__nav" : "")}
+                    onClick={()=>setIsNavShowing(prev => !prev)}
                   >
                     {name}
                   </NavLink>
@@ -29,10 +32,10 @@ const Navbar = () => {
             );
           })}
         </ul>
-        <button className="nav__toggle_btn" onClick={()=>setIsNavShowing(!isNavShowing)}>
+        <button className="nav__toggle_btn" onClick={()=>setIsNavShowing(prev => !prev)}>
 
           {
-            isNavShowing ? 'Close' : 'Menu'
+            isNavShowing ? <CloseIcon /> : <MenuIcon />
           }
         </button>
       </div>
