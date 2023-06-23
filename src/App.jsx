@@ -13,13 +13,13 @@ function App() {
     <>
     <BrowserRouter>
     <Navbar/>
-      <About />
+      {/* <About />
       <Contact />
       <Gallery />
       <Home />
       <NotFound />
       <Plans />
-      <Trainers />
+      <Trainers /> */}
     </BrowserRouter>
     </>
   );
