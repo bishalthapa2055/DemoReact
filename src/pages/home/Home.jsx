@@ -1,10 +1,14 @@
-import Header from "../../components/Header";
-import "./home.css";
+
+import MainHeader from "../../components/Header";
+import Programs from "../../components/Programs";
+import "./home.css"
+
 const Home = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <>
+    <MainHeader />
+    <Programs />
+    </>
   );
 };
 
