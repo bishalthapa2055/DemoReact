@@ -137,5 +137,17 @@ section{
   transition: var(--transition);
 }
 
+.card:hover{
+  background: transparent;
+  border-color: var(--color-gray-400);
+  cursor: default;
+  transition: var(--transition);
+}
 
+.card span:hover{
+  background: var(--color-secondary);
+  
+  cursor: default;
+  transition: var(--transition);
 
+}
