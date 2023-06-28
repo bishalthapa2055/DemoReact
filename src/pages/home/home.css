@@ -232,3 +232,55 @@ margin:  1.5rem 0 5rem;
     width: 3rem;
     height: 3rem;
 }
+
+
+/*===================footer ==============*/
+
+footer{
+background: var(--color-primary);
+margin-top: 7rem;
+padding-top: 7rem;
+font-size: 0.9rem;
+color: var(--color-gray-100);
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
+}
+
+.footer__container article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+
+.footer__container article p{
+    margin-bottom: 0.5rem;
+}
+
+.footer_socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.footer_socials a{
+    background: var(--color-gray-100);
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem   ;
+    transition: var(--transition);
+}
+
+.footer_socials a svg{
+    color: var(--color-gray-600);
+}
+
+.footer_socials a:hover{
+    border-color: var(--color-gray-100);
+    background: transparent;
+}
