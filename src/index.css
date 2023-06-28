@@ -151,3 +151,32 @@ section{
   transition: var(--transition);
 
 }
+
+
+
+/* =============media query for medium screens  =========*/
+
+@media screen and (max-width : 1024px) {
+ 
+ 
+  .container{
+    width: var(--container-width-md);
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.6rem;
+  }
+}
+
+
+/*  ================media for small screen  ===========*/
+
+@media screen and (max-width :600px) {
+  h1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+}
