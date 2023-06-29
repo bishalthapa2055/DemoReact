@@ -1,0 +1,10 @@
+
+
+.notFound__container{
+    display: grid;
+    place-items: center;
+}
+
+.notFound__container h2{
+    margin-bottom: 2rem;
+}

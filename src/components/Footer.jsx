@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="container footer__container">
           <article>
             <Link to="/" className="logo">
-              <img src={Logo} alt="Footer Logo" />
+              <img src="https://d11airhslbrx5o.cloudfront.net/static/logo.png" alt="Footer Logo" />
             </Link>
             <p>
               Lorem Ipsum is the one of the best platform for gaining, copying

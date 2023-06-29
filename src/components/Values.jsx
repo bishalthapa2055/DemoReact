@@ -11,7 +11,7 @@ const Values = () => {
         <div className="container values__container">
           <div className="values__left">
             <div className="values__image">
-              <img src={Image} alt="Vlaues IMages" />
+              <img src="https://d11airhslbrx5o.cloudfront.net/static/values.jpg" alt="Vlaues IMages" />
             </div>
           </div>
           <div className="values__right">

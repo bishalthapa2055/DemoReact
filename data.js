@@ -158,35 +158,35 @@ export const testimonials = [
         name: "Diana Ayi",
         quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Student",
-        avatar: Avatar1
+        avatar: "https://d11airhslbrx5o.cloudfront.net/static/avatar1.jpg"
     },
     {
         id: 2,
         name: "Daniel Vinyo",
         quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Software Egineer",
-        avatar: Avatar2
+        avatar: "https://d11airhslbrx5o.cloudfront.net/static/avatar2.jpg"
     },
     {
         id: 3,
         name: "Edem Quist",
         quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "University Lecturer",
-        avatar: Avatar3
+        avatar: "https://d11airhslbrx5o.cloudfront.net/static/avatar3.jpg"
     },
     {
         id: 4,
         name: "Grace Lavoe",
         quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Talking Parrot",
-        avatar: Avatar4
+        avatar: "https://d11airhslbrx5o.cloudfront.net/static/avatar4.jpg"
     },
     {
         id: 5,
         name: "Nana Yaa Dankwa",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Pharmacist",
-        avatar:Avatar5
+        avatar:"https://d11airhslbrx5o.cloudfront.net/static/avatar5.jpg"
     }
 ]
 
@@ -196,71 +196,71 @@ export const testimonials = [
 
 
 
-// export const plans = [
-//     {
-//         id: 1,
-//         name: 'Silver Package',
-//         desc: 'This package is perfect for beginners who need constant help',
-//         price: 29.99,
-//         features: [
-//             {feature: 'First Feature', available: true},
-//             {feature: 'Second Feature', available: true},
-//             {feature: 'Third Feature', available: true},
-//             {feature: 'Fourth Feature', available: true},
-//             {feature: 'Fifth Feature', available: true},
-//             {feature: 'Fifth Feature Plus', available: false},
-//             {feature: 'Sixth Feature', available: false},
-//             {feature: 'Seventh Feature', available: false},
-//             {feature: 'Seventh Feature Plus', available: false},
-//             {feature: 'Eighth Feature', available: false},
-//             {feature: 'Ninth Feature', available: false},
-//             {feature: 'Tenth Feature', available: false},
-//             {feature: 'Eleventh Feature', available: false}
-//         ]
-//     },
-//     {
-//         id: 2,
-//         name: 'Gold Package',
-//         desc: 'This is the perfect package for beginners who know what their doing',
-//         price: 49.99,
-//         features: [
-//             {feature: 'First Feature', available: true},
-//             {feature: 'Second Feature', available: true},
-//             {feature: 'Third Feature', available: true},
-//             {feature: 'Fourth Feature', available: true},
-//             {feature: 'Fifth Feature', available: true},
-//             {feature: 'Fifth Feature Plus', available: true},
-//             {feature: 'Sixth Feature', available: true},
-//             {feature: 'Seventh Feature', available: true},
-//             {feature: 'Seventh Feature Plus', available: true},
-//             {feature: 'Eighth Feature', available: false},
-//             {feature: 'Ninth Feature', available: false},
-//             {feature: 'Tenth Feature', available: false},
-//             {feature: 'Eleventh Feature', available: false}
-//         ]
-//     },
-//     {
-//         id: 3,
-//         name: 'Platinum Package',
-//         desc: 'This package is perfect for busy people who need home service',
-//         price: 89.99,
-//         features: [
-//             {feature: 'First Feature', available: true},
-//             {feature: 'Second Feature', available: true},
-//             {feature: 'Third Feature', available: true},
-//             {feature: 'Fourth Feature', available: true},
-//             {feature: 'Fifth Feature', available: true},
-//             {feature: 'Fifth Feature Plus', available: true},
-//             {feature: 'Sixth Feature', available: true},
-//             {feature: 'Seventh Feature', available: true},
-//             {feature: 'Seventh Feature Plus', available: true},
-//             {feature: 'Eighth Feature', available: true},
-//             {feature: 'Ninth Feature', available: true},
-//             {feature: 'Tenth Feature', available: true},
-//             {feature: 'Eleventh Feature', available: true}
-//         ]
-//     }
-// ]
+export const plans = [
+    {
+        id: 1,
+        name: 'Silver Package',
+        desc: 'This package is perfect for beginners who need constant help',
+        price: 29.99,
+        features: [
+            {feature: 'First Feature', available: true},
+            {feature: 'Second Feature', available: true},
+            {feature: 'Third Feature', available: true},
+            {feature: 'Fourth Feature', available: true},
+            {feature: 'Fifth Feature', available: true},
+            {feature: 'Fifth Feature Plus', available: false},
+            {feature: 'Sixth Feature', available: false},
+            {feature: 'Seventh Feature', available: false},
+            {feature: 'Seventh Feature Plus', available: false},
+            {feature: 'Eighth Feature', available: false},
+            {feature: 'Ninth Feature', available: false},
+            {feature: 'Tenth Feature', available: false},
+            {feature: 'Eleventh Feature', available: false}
+        ]
+    },
+    {
+        id: 2,
+        name: 'Gold Package',
+        desc: 'This is the perfect package for beginners who know what their doing',
+        price: 49.99,
+        features: [
+            {feature: 'First Feature', available: true},
+            {feature: 'Second Feature', available: true},
+            {feature: 'Third Feature', available: true},
+            {feature: 'Fourth Feature', available: true},
+            {feature: 'Fifth Feature', available: true},
+            {feature: 'Fifth Feature Plus', available: true},
+            {feature: 'Sixth Feature', available: true},
+            {feature: 'Seventh Feature', available: true},
+            {feature: 'Seventh Feature Plus', available: true},
+            {feature: 'Eighth Feature', available: false},
+            {feature: 'Ninth Feature', available: false},
+            {feature: 'Tenth Feature', available: false},
+            {feature: 'Eleventh Feature', available: false}
+        ]
+    },
+    {
+        id: 3,
+        name: 'Platinum Package',
+        desc: 'This package is perfect for busy people who need home service',
+        price: 89.99,
+        features: [
+            {feature: 'First Feature', available: true},
+            {feature: 'Second Feature', available: true},
+            {feature: 'Third Feature', available: true},
+            {feature: 'Fourth Feature', available: true},
+            {feature: 'Fifth Feature', available: true},
+            {feature: 'Fifth Feature Plus', available: true},
+            {feature: 'Sixth Feature', available: true},
+            {feature: 'Seventh Feature', available: true},
+            {feature: 'Seventh Feature Plus', available: true},
+            {feature: 'Eighth Feature', available: true},
+            {feature: 'Ninth Feature', available: true},
+            {feature: 'Tenth Feature', available: true},
+            {feature: 'Eleventh Feature', available: true}
+        ]
+    }
+]
 
 
 
