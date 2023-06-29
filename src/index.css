@@ -168,6 +168,10 @@ section{
   h2{
     font-size: 1.6rem;
   }
+
+  .header__content{
+    width: 76%;
+  }
 }
 
 
@@ -178,5 +182,58 @@ section{
     font-size: 2.5rem;
     line-height: 2.5rem;
   }
-  
+
+  section{
+    margin-top: 7rem;
+
+  }
+  .header{
+    height: fit-content;
+  }
+  .header__content{
+    width: var(--container-width-md);
+    padding: 3rem 0;
+  }
 }
+
+
+
+ /* for componentsheader  */
+
+
+ .header{
+  margin-top: 5rem;
+  height: 20rem;
+  overflow: hidden;
+  border-bottom: 2px solid var(--color-gray-400);
+ }
+
+ .header__container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  place-items: center;
+  display: grid;
+  background: black;
+ }
+ .header__container-bg{
+  position: absolute;
+  width: 100%;
+ }
+
+ .header__container-bg img{
+  opacity: 0.5;
+ }
+
+ .header__content{
+  position: relative;
+  width: 44%;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-gray-100);
+
+ }
+
+ .header__content h4{
+  margin-bottom: 2rem;
+ }

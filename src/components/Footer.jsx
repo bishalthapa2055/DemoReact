@@ -25,7 +25,7 @@ const Footer = () => {
                 target="# "
                 rel="noreferrer noopener"
               >
-                <FaLinkedin />
+                <FaLinkedin />  
               </a>
               <a
                 href="https://linkedin.com"
