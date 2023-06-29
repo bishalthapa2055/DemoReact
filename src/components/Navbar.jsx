@@ -3,7 +3,7 @@ import "./navbar.css";
 import { Link, NavLink } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { links } from "../../data";
+import { links } from "../../data.js";
 import { useState } from "react";
 
 const Navbar = () => {

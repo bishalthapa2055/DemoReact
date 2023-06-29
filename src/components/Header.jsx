@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 // import MainHeader from "../../components/MainHeader";/
-import Image from "../images/main_header.png"
+
 import "../pages/home/home.css";
 const Home = () => {
   return (
