@@ -21,7 +21,7 @@ const Home = () => {
           <div className="main__header-right">
             <div className="main__header-circle"></div>
             <div className="main__header-image">
-              <img src={Image} alt="Main header Image" />
+              <img src="https://d11airhslbrx5o.cloudfront.net/static/main_header.png" alt="Main header Image" />
             </div>
           </div>
         </div>

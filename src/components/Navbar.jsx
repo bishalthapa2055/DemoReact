@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav>
       <div className="container nav_container">
         <Link to="/" className="logo">
-          <img src={Logo} alt="Nav Logo" />
+          <img src="https://d11airhslbrx5o.cloudfront.net/static/logo.png" alt="Nav Logo" />
         </Link>
         <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
           {links.map(({ name, path }, index) => {

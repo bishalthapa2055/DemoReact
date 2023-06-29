@@ -1,5 +1,5 @@
 import "./contact.css";
-import HeaderImage from "../../images/header_bg_2.jpg";
+// import HeaderImage from "../../images/header_bg_2.jpg";
 import { MdEmail } from "react-icons/md";
 import { BsMessenger } from "react-icons/bs";
 import { ImWhatsapp } from "react-icons/im";
@@ -8,7 +8,7 @@ import ComponentsHeaders from "../../components/ComponentsHeaders";
 const Contact = () => {
   return (
     <>
-      <ComponentsHeaders title="Contact Us" image={HeaderImage}>
+      <ComponentsHeaders title="Contact Us" image="https://d11airhslbrx5o.cloudfront.net/static/header_bg_2.jpg">
         <p>
          You can contact to us through provided links below :
         </p>
