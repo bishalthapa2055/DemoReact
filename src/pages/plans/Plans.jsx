@@ -1,14 +1,14 @@
 import "./plans.css"
 
 import ComponentsHeaders from "../../components/ComponentsHeaders"
-import HeaderImage from "../../images/header_bg_4.jpg";
+
 import Card from "../../pages/UI/Cards";
 import { plans } from "../../../data";
 
 const Plans = () => {
   return (
     <>
-    <ComponentsHeaders title="Membership Plan" image={HeaderImage} >
+    <ComponentsHeaders title="Membership Plan" image="https://d11airhslbrx5o.cloudfront.net/static/header_bg_4.jpg" >
       <p>
       Provided below are the memberships plan according to our system which helps each and individuals to apply for membership plans <div className=""></div>
       </p>
