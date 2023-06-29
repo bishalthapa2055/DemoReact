@@ -1,5 +1,5 @@
 import "./navbar.css";
-import Logo from "../images/Logo.png";
+
 import { Link, NavLink } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
