@@ -1,6 +1,6 @@
 import "./trainers.css";
 import ComponentsHeaders from "../../components/ComponentsHeaders";
-import HeaderImage from "../../images/header_bg_5.jpg";
+
 import { trainers } from "../../../data";
 import { BsInstagram } from "react-icons/bs";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -10,7 +10,7 @@ import Trainer from "../../components/Trainer";
 const Trainers = () => {
   return (
     <>
-      <ComponentsHeaders title="Our Trainer" image={HeaderImage}>
+      <ComponentsHeaders title="Our Trainer" image="https://d11airhslbrx5o.cloudfront.net/static/header_bg_5.jpg">
         Faciis isuto namam inde labrosoam expediata qui exercitation ? Dicta
         vero accusantium est aut molestia fugiy doloremque sucipte quod.
       </ComponentsHeaders>
