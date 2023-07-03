@@ -1,10 +1,3 @@
-import Trainer1 from "./src/images/trainer1.jpg"
-import Trainer2 from "./src/images/trainer2.jpg"
-import Trainer3 from "./src/images/trainer3.jpg"
-import Trainer4 from "./src/images/trainer4.jpg"
-import Trainer5 from "./src/images/trainer5.jpg"
-import Trainer6 from "./src/images/trainer6.jpg"
-
 
 
 
@@ -278,42 +271,42 @@ export const plans = [
 export const trainers = [
     {
         id: 1,
-        image: Trainer1,
+        image: "https://d11airhslbrx5o.cloudfront.net/static/trainer1.jpg",
         name: 'John Doe',
         job: 'Aerobic Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 2,
-        image: Trainer2,
+        image: "https://d11airhslbrx5o.cloudfront.net/static/trainer2.jpg",
         name: 'Daniel vinyo',
         job: 'Speed Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 3,
-        image: Trainer3,
+        image: "https://d11airhslbrx5o.cloudfront.net/static/trainer3.jpg",
         name: 'Edem Quist',
         job: 'Flexibility Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 4,
-        image: Trainer4,
+        image: "https://d11airhslbrx5o.cloudfront.net/static/trainer4.jpg",
         name: 'Shatta Wale',
         job: 'Body Composition Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 5,
-        image: Trainer5,
+        image: "https://d11airhslbrx5o.cloudfront.net/static/trainer5.jpg",
         name: 'Diana Ayi',
         job: 'Circuit Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 6,
-        image: Trainer6,
+        image: "https://d11airhslbrx5o.cloudfront.net/static/trainer6.jpg",
         name: 'Wayne Carter',
         job: 'Physical Intelligence Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
