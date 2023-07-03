@@ -1,0 +1,34 @@
+.trainers{
+    display: grid;
+}
+
+
+.trainer__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+}
+
+.card.trainer{
+    padding: 1rem;
+}
+
+@media screen and (max-width:1024px) 
+{
+
+    .trainer__container{
+        display:  grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+
+@media screen and (max-width :600px) {
+    
+    .trainer__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-inline: auto ;
+    }
+}

@@ -237,3 +237,49 @@ section{
  .header__content h4{
   margin-bottom: 2rem;
  }
+
+ 
+
+ .trainer h3{
+  margin-top: 1rem;
+ 
+
+ }
+
+.trainer p{
+  padding: 0.4rem;
+}
+
+.trainer__socials{
+ 
+  gap: 1rem;
+ display:  flex;
+ justify-content: center;
+ align-items: center;
+ margin: 2rem 0;
+}
+.trainer__socials a{
+  font-size: 0.7rem;
+ padding: 0.8rem;
+ background: var(--color-gray-600);
+ border-radius: 0.7rem;
+
+
+}
+
+
+.trainer__socials a:hover{
+  color: var(--color-secondary);
+}
+
+
+@media screen  and (max-width:600px){
+  .trainer{
+    width: 80%;
+    margin-inline: auto ;
+  }
+  .trainer__socials{
+    margin-top: 0.5rem;
+  
+  }
+}
